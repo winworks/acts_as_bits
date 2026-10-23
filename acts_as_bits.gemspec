@@ -24,13 +24,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "pg"
   s.add_development_dependency "sqlite3"
 
-  if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
-    s.specification_version = 3
-
-    if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-    else
-    end
-  else
-  end
+  s.specification_version = 3
 end
